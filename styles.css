@@ -1,0 +1,358 @@
+:root {
+  --normal-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-80kwt8yre9691.jpg?width=828&format=pjpg&auto=webp&s=bca5057be5c4acfea02acfb983dc82283be2a6b7");
+  --flying-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-oh3yesxre9691.jpg?width=828&format=pjpg&auto=webp&s=3e77c8f84d430ceb5299bf93d499ffe72de77fb9");
+  --fighting-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-6b815uxre9691.jpg?width=828&format=pjpg&auto=webp&s=861ee36427336118f92ae39dfa64b6e80009d79c");
+  --water-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-0w3th7yre9691.jpg?width=828&format=pjpg&auto=webp&s=e5d430ffea74514c71af6bef2ae3e940fc813334");
+  --fire-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-nerhmsxre9691.jpg?width=828&format=pjpg&auto=webp&s=f615a112b0ecea0b22ff981fadb4a97419bc58cc");
+  --grass-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-g2zmcsxre9691.jpg?width=828&format=pjpg&auto=webp&s=e1086395bc0e2e2042163e004d75cdbafd09d8fc");
+  --ghost-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-za4rn7yre9691.jpg?width=828&format=pjpg&auto=webp&s=32ccd6b97d9f4fc0689133a179efe31b02917eba");
+  --bug-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-7eb8srxre9691.jpg?width=640&crop=smart&auto=webp&s=3ebe9c2b941b34e2585cee55f10ab2e56c7adff4");
+  --ground-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-ujvp37yre9691.jpg?width=828&format=pjpg&auto=webp&s=f4cd4ba27eb1cd8e4c6d938888e20be42f7fc800");
+  --rock-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-2fqbgsxre9691.jpg?width=828&format=pjpg&auto=webp&s=052d89ce41572495f28037d61dbd01ef5b481221");
+  --electric-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-q1w8rrxre9691.jpg?width=828&format=pjpg&auto=webp&s=b469fa293d2a93cd8006a3d5b6307b41c77eb9c4");
+  --steel-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-c8e1rtxre9691.jpg?width=828&format=pjpg&auto=webp&s=57e154768c8ebf662a94f8f801aba48348ce7773");
+  --fairy-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-cb2hasxre9691.jpg?width=828&format=pjpg&auto=webp&s=c6f3f6ccd488915da5b7081a2839d71498d5bff1");
+  --ice-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-1ga1xsxre9691.jpg?width=828&format=pjpg&auto=webp&s=9ed2fa155913e02c1c5124d90aad96b957ceccf1");
+  --psychic-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-8877csxre9691.jpg?width=828&format=pjpg&auto=webp&s=f585804fc34f5da80014246e95ca77f2e26883c3");
+  --dragon-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-ia8hktxre9691.jpg?width=828&format=pjpg&auto=webp&s=861fdd063866fb448cc2ac40c3c21c8a1fb76874");
+  --poison-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-z9f0vrxre9691.jpg?width=828&format=pjpg&auto=webp&s=195e5861cb718dd99d81fe31bbc1cc910b2a6396");
+  --dark-img: url("https://preview.redd.it/i-was-bored-so-i-took-the-pok%C3%A9mon-of-each-types-out-of-v0-90c3dsxre9691.jpg?width=828&format=pjpg&auto=webp&s=011f2125bf621b1a160ce1013e207b9275c34831");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  /* (62.5/100) * 16px = 10px */
+  -webkit-text-size-adjust: none;
+  /* for iOS Safari */
+  text-size-adjust: none;
+  /* for other mobile browsers */
+}
+
+body {
+  font-family: sans-serif;
+  background: url("https://pbs.twimg.com/media/EYtf1tjWoAE4fpD.jpg:large");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  overflow: hidden;
+}
+
+main {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main-container {
+  width: 100%;
+  padding: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  row-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+.head {
+  width: 200px;
+  margin-top: -1rem;
+}
+
+.search-div {
+  row-gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  width: 80%;
+}
+
+button {
+  width: 40%;
+}
+
+.display {
+  width: 302px;
+  height: 575px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgb(41, 40, 40);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.356);
+  background: var(--normal-img);
+  background-size: cover;
+  text-align: center;
+}
+
+.pokemon-display {
+  width: 95%;
+  height: 404px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.top-display {
+  width: 100%;
+  height: 123.4px;
+}
+
+.name-and-id {
+  min-height: 29px;
+}
+
+.size {
+  height: 62.4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem 0;
+  font-size: 0.6rem;
+  color: rgb(71, 71, 71);
+}
+
+.size span {
+  font-size: 1rem;
+  color: black;
+}
+
+
+#sprite-container {
+  min-width: 160px;
+  min-height: 160px;
+}
+
+
+#sprite {
+  width: 160px;
+  height: 160px;
+}
+
+#pokemon-name {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+
+#pokemon-id {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: rgb(71, 71, 71)
+}
+
+.stats-display {
+  width: 90%;
+  padding: 0.4rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  text-align: center;
+}
+
+.stats-display div {
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.stats-display p {
+  width: 71%;
+  padding: 0.2rem;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.637);
+  color: white;
+}
+
+.stat {
+  width: 27%;
+  padding: 0.2rem;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.651);
+}
+
+#types {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.2rem;
+  text-transform: capitalize;
+}
+
+.normal {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #8f99a1;
+  background: linear-gradient(180deg, rgba(143, 153, 161, 1) 25%, rgba(168, 167, 160, 1) 100%);
+}
+
+.flying {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #8fa8dd;
+  background: linear-gradient(180deg, rgba(143, 168, 221, 1) 25%, rgba(167, 192, 238, 1) 100%);
+}
+
+.fighting {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #ce416a;
+  background: linear-gradient(180deg, rgba(206, 65, 106, 1) 25%, rgba(229, 69, 77, 1) 100%);
+}
+
+.water {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #4e91d5;
+  background: linear-gradient(180deg, rgba(78, 145, 213, 1) 25%, rgba(114, 195, 227, 1) 100%);
+}
+
+.fire {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #ff9b54;
+  background: linear-gradient(180deg, rgba(255, 155, 84, 1) 25%, rgba(255, 173, 75, 1) 100%);
+}
+
+.grass {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #60b954;
+  background: linear-gradient(180deg, rgba(96, 185, 84, 1) 25%, rgba(88, 195, 123, 1) 100%);
+}
+
+.ghost {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #5468ad;
+  background: linear-gradient(180deg, rgba(84, 104, 173, 1) 25%, rgba(119, 115, 210, 1) 100%);
+}
+
+.bug {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #90c22d;
+  background: linear-gradient(180deg, rgba(144, 194, 45, 1) 15%, rgba(171, 200, 52, 1) 100%);
+}
+
+.ground {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #d57644;
+  background: linear-gradient(180deg, rgba(213, 118, 68, 1) 25%, rgba(210, 152, 104, 1) 100%);
+}
+
+.rock {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #c7b78a;
+  background: linear-gradient(180deg, rgba(199, 183, 138, 1) 25%, rgba(215, 203, 148, 1) 100%);
+}
+
+.electric {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #f5d23d;
+  background: linear-gradient(180deg, rgba(245, 210, 61, 1) 25%, rgba(249, 225, 117, 1) 100%);
+}
+
+.steel {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #54879d;
+  background: linear-gradient(180deg, rgba(84, 135, 157, 1) 25%, rgba(87, 167, 169, 1) 100%);
+}
+
+.fairy {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #ee8de7;
+  background: linear-gradient(180deg, rgba(238, 141, 231, 1) 25%, rgba(244, 168, 228, 1) 100%);
+}
+
+.ice {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #73cebf;
+  background: linear-gradient(180deg, rgba(115, 206, 191, 1) 25%, rgba(147, 220, 216, 1) 100%);
+}
+
+.psychic {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #f76e73;
+  background: linear-gradient(180deg, rgba(247, 110, 115, 1) 25%, rgba(252, 163, 152, 1) 100%);
+}
+
+.dragon {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #0a68c1;
+  background: linear-gradient(180deg, rgba(10, 104, 193, 1) 25%, rgba(5, 130, 186, 1) 100%);
+}
+
+.poison {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: #a566c6;
+  background: linear-gradient(180deg, rgba(165, 102, 198, 1) 25%, rgba(197, 98, 214, 1) 100%);
+}
+
+.dark {
+  padding: 0.3rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  background: hsl(267, 10%, 36%);
+  background: linear-gradient(180deg, rgba(91, 83, 101, 1) 25%, rgba(109, 116, 129, 1) 100%);
+}

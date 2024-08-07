@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Search App</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <main>
+    <div class="main-container">
+      <img class="head" src="https://i.ibb.co/Ky5kk60/612ce4761b9679000402af1c.png" alt="Pokemon Logo">
+      <div class="search-div">
+        <label for="search-input">Search for Pokémon Name or Number</label>
+        <input type="text" id="search-input" required>
+        <button id="search-button">Search</button>
+      </div>
+      <div class="display" id="display">
+        <div id="sprite-container"></div>
+        <div class="pokemon-display">
+          <div class="top-display">
+            <div class="name-and-id">
+              <span id="pokemon-name"></span>
+              <span id="pokemon-id"></span>
+            </div>
+            <div class="size">
+              <div>
+                <span id="weight"></span>
+                <p>WEIGHT</p>
+              </div>
+              <div>
+                <span id="types"></span>
+              </div>
+              <div>
+                <span id="height"></span>
+                <p>HEIGHT</p>
+              </div>
+            </div>
+          </div>
+          <div class="stats-display">
+            <div>
+              <p>HP</p>
+              <span id="hp" class="stat"></span>
+            </div>
+            <div>
+              <p>ATTACK</p>
+              <span id="attack" class="stat"></span>
+            </div>
+            <div>
+              <p>DEFENSE</p>
+              <span id="defense" class="stat"></span>
+            </div>
+            <div>
+              <p>SP. ATTACK</p>
+              <span id="special-attack" class="stat"></span>
+            </div>
+            <div>
+              <p>SP. DEFENSE</p>
+              <span id="special-defense" class="stat"></span>
+            </div>
+            <div>
+              <p>SPEED</p>
+              <span id="speed" class="stat"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
